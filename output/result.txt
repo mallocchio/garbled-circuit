@@ -1,0 +1,79 @@
+Bob's computation:
+
+ Bob's min number: 100 (1100100 in binary)
+ Bob's message for Alice: 11101100
+
+ Oblivious Transfer Details:
+
+  Bob's Inputs:
+   Wire 9: Bit = 0
+   Wire 10: Bit = 1
+   Wire 11: Bit = 1
+   Wire 12: Bit = 0
+   Wire 13: Bit = 0
+   Wire 14: Bit = 1
+   Wire 15: Bit = 0
+   Wire 16: Bit = 0
+
+  Bob's Output P-bits:
+   Wire 86: P-bit = 1
+   Wire 85: P-bit = 1
+   Wire 84: P-bit = 1
+   Wire 83: P-bit = 0
+   Wire 82: P-bit = 1
+   Wire 81: P-bit = 1
+   Wire 80: P-bit = 0
+   Wire 79: P-bit = 0
+
+Alice's computation:
+
+ Alice's min number: 98 (1100010 in binary)
+ Alice's message for Bob: 01100010
+
+ Oblivious Transfer Details:
+
+  Alice's inputs:
+   Wire 1: Key = b'xsXGtgmezN7S1KK-ALGMczbvMnvLoEAFqOq1UwGYBsM=', Encrypted Bit = 1
+   Wire 2: Key = b'1mzPiR9Tu3eoJ-aDiSDUDio2Ss3yg6-jSEnZGOqmnJE=', Encrypted Bit = 1
+   Wire 3: Key = b'6hFfydE_Lc90X2bwDswwHN8h2jOprDVR24eVeTpxuN0=', Encrypted Bit = 0
+   Wire 4: Key = b'-HBLjEFvDUrt9Huynq0Eqpm_v2HDojgTxPwjSbYBBJE=', Encrypted Bit = 1
+   Wire 5: Key = b'K3_PdTLRFvkVLeai2fiAcUmWjN6vUr1Y-0s_N1iDsiM=', Encrypted Bit = 1
+   Wire 6: Key = b'W2E-M33-mf8VlJmVgreFCtD0rQKleUa2BjqOaTeAsps=', Encrypted Bit = 1
+   Wire 7: Key = b'ZKSUS1zEqtENWBkPP1izgo620PxcFX-akEAUkt519zg=', Encrypted Bit = 1
+   Wire 8: Key = b'InM1fAlONI1_A_hfjLvkRaooX9Edtg6WaustPMUs6ko=', Encrypted Bit = 0
+
+  Keys sent to Bob to evaluate the circuit:
+
+   Wire 9:
+    Key0 = DYHfqKhtLRqkNj8KdhpIX474pR-xTUHJKs3y9BwCCIE=, Encrypted Bit0 = 1
+    Key1 = _upe1B9SdDJB-wg6MOP5Ah8tbEDkwLsnh0m-3rQAomQ=, Encrypted Bit1 = 0
+
+   Wire 10:
+    Key0 = Ws3-NqBJIxsElI3vPrwav-c5-xq5f0x0Hml5yzwp8dg=, Encrypted Bit0 = 1
+    Key1 = HZv-Cxi8SRUZKUilDz3CeEpFkKp8tZo0M73jz5V84vI=, Encrypted Bit1 = 0
+
+   Wire 11:
+    Key0 = afQunoTEfKFOzlNcWzE_l_dE4J6ZgdYFH1CRPWTU5nk=, Encrypted Bit0 = 1
+    Key1 = 7ztf29E3zN-JxioUA-w2AD56QGKvxCn3FsDkGPGQKZ8=, Encrypted Bit1 = 0
+
+   Wire 12:
+    Key0 = mgaiQXOEOJ9uE_sEcMBaVwY_F092X48YEYPgcxrVZtM=, Encrypted Bit0 = 1
+    Key1 = sYZJfkM1qwJaU6pJS7li3kZSs5TfHoqaPbcFnXzB8bc=, Encrypted Bit1 = 0
+
+   Wire 13:
+    Key0 = 6sA0BMxj6_EDcGYxhHZoS80BLWU0ReM_HB9EsEoOJ0A=, Encrypted Bit0 = 0
+    Key1 = 78qAS0nsoPfW_q6muuaPpqFH8b5FGUSab9sSfk4Fkg8=, Encrypted Bit1 = 1
+
+   Wire 14:
+    Key0 = T34jD35IJvG76Vb4y5bnMAmVL4khROa5r7cOLBYexIU=, Encrypted Bit0 = 1
+    Key1 = AbDluKe9MYsFYBotW4T-Kzv4L1qeG7GvqHjSSsoG7hk=, Encrypted Bit1 = 0
+
+   Wire 15:
+    Key0 = JSKC9y07Jt5uGux_y-Fca7y3TIzrRza-JppnKNFCuaY=, Encrypted Bit0 = 1
+    Key1 = 1rpM8z8MkglBLFBBRT1P5vD74W6_DUuVHsDUn2d6h7c=, Encrypted Bit1 = 0
+
+   Wire 16:
+    Key0 = kPyuAPx5PHoPL33ktvmBfuLseACRd5UsuYdPw75Cb8Q=, Encrypted Bit0 = 1
+    Key1 = dzhwsCwA6VwEB3s9w2jEqszCOPH0LEmDPVfNFTu25qE=, Encrypted Bit1 = 0
+
+The min of the two sets of values is 98 and it is correct.
